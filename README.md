@@ -6,6 +6,7 @@ clustering.
 
 ## Files
 
+- `spatialFM-embedding/` (*Git submodule*): external submodule linking to [`Qingtian-Zou/spatialFM-embedding`](https://github.com/Qingtian-Zou/spatialFM-embedding), providing the dedicated pipeline and model wrappers for extracting spatial foundation-model embeddings.
 - `scripts/parfait_model.py`: PARFAIT model definition.
 - `scripts/prepare_data.py`: helper imported by `run_parfait.py`; loads raw DLPFC
   h5ad files, aligns spot order, loads precomputed embeddings, and computes the
