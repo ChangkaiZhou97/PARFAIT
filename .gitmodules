@@ -1,0 +1,3 @@
+[submodule "spatialFM-embedding"]
+	path = spatialFM-embedding
+	url = https://github.com/Qingtian-Zou/spatialFM-embedding.git
